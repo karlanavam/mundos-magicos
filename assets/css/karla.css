@@ -1,0 +1,96 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#universo{
+  display:none;
+}
+
+#menuDos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: fdf2df;
+}
+
+#logoDos {
+    width: 26%;
+}
+
+#universo {
+  margin-top: -4.7%;
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#universoInterior {
+    display: flex;
+    flex-direction: row;
+}
+
+#sol {
+    width: 44%;
+}
+
+#solPorcentaje {
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 6%;
+}
+
+.dialogo{
+  width: 20%;
+  margin-top: 5%;
+  margin-left: -7%;
+  opacity: 0.5;
+ position: relative;
+}
+.dialogo p{
+  position: absolute;
+  padding-bottom: 15%;
+  font-family: 'Amatic SC', cursive;
+  color:black;
+  font-weight: bold;
+  font-size:2vw;
+  margin-left: 23%;
+
+
+}
+.dialogo img{
+  width: 80%;
+}
+
+.planetasPorcentajes {
+    width: 25%;
+    text-align: right;
+}
+
+.planetaPorcentInt{
+    width: 60%;
+}
+
+.planetaPorcentInt:hover {
+    width: 64%;
+}
+
+#planet1 {
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 33%;
+}
+
+#planet2 {
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 50%;
+}
+
+#planet3 {
+    margin-top: 32%;
+    margin-left: 24%;
+}

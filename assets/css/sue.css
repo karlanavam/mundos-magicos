@@ -1,0 +1,116 @@
+
+html,body{
+  height:100%;
+  width:100%;
+  margin: 0px;
+    padding: 0;
+}
+
+.contenedorGeneralMundoPlayero{
+    background-image:url(../img/fondocielo.png);
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   height: 100%;
+   width: 100%;
+}
+
+.imagenes{
+    width:100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.dialogo{
+  width: 20%;
+  margin-top: 5%;
+  margin-left: -7%;
+  opacity: 0.5;
+ position: relative;
+}
+.dialogo p{
+  position: absolute;
+  padding-bottom: 15%;
+  font-family: 'Amatic SC', cursive;
+  color:black;
+  font-weight: bold;
+  font-size:2vw;
+  margin-left: 23%;
+
+
+}
+#imgnube{
+    width: 100%;
+    position: relative;
+
+}
+
+#imgnubeok{
+    width: 120%;
+    position: absolute;
+    top: 0px;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+#spanSol{
+    position: absolute;
+    top: 0px;
+
+
+}
+#contSol{
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+}
+
+#img01sol {
+    width: 90%;
+    padding-top: 3%;
+    padding-left: 7%;
+}
+
+.contImagenes {
+    width: 28.5%;
+}
+
+#img01playa {
+    width: 97%;
+    margin-left: -9%;
+    margin-top: 50%;
+}
+
+#img01playa:hover {
+    width: 100%;
+}
+
+#img02playa {
+    width: 67%;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+#img02playa:hover {
+    width: 69%;
+}
+
+#img03playa {
+    width: 90%;
+    margin-top: 30%;
+    margin-left: -3%;
+}
+
+#img03playa:hover {
+    width: 92%;
+}
+
+@media (max-width: 750px){
+  .imagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+  }
+}
