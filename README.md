@@ -1,9 +1,9 @@
 # mundos-magicos
-###Proyecto realizado en conjunto para el Hackahon #ComoNiña de EpicQueen.
+### Proyecto realizado en conjunto para el Hackahon #ComoNiña de EpicQueen.
 
 ## 2do Lugar en el Hackathon #ComoNiña de EpicQueen
 
-####- Este Hackaton lo ganamos teniendo sólo 4 meses de comenzar a aprender código.
+#### Este Hackaton lo ganamos teniendo sólo 4 meses de comenzar a aprender código.
 
 Hackathon que busca romper los paradigmas como: 'Pegas como niña'. 'Eso no lo pueden hacer las niñas', etc.
 En este evento se planteó crear una solución para problemas cotidianos de las mujeres a través de una solución tecnológica.
